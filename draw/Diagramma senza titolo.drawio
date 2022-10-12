@@ -1,50 +1,50 @@
-<mxfile host="app.diagrams.net" modified="2022-10-12T14:18:21.689Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="RtqDTEOuksVHrU-DHlgx" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-12T14:19:54.070Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="br7IP0Fc7l1dHO6u1fbR" version="20.4.0" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="1389" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1389" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#F4F1DE" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="uckN_QWL19h1E3_D1OjQ-1" value="&lt;b&gt;Database&lt;/b&gt;&lt;br&gt;&lt;br&gt;Tabella AAA_UiConfigs&lt;br&gt;Salvataggio in formato JSON&lt;br&gt;&lt;br&gt;&lt;ol&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;b&gt;ReactModuleEnumId&lt;/b&gt;: Enumeratore che identifica l&#39;applicazione React (es. Scadenzario, NcSmart, GdprDataRetention...)&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;b&gt;KeyRoute&lt;/b&gt;: Pagina interna all&#39;applicazione (es: HomePage, DettaglioFrequenze, Luoghi, ecc..)&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;b&gt;HashCode&lt;/b&gt;: ??&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;b&gt;UserId&lt;/b&gt;: id utente&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;b&gt;RecordType&lt;/b&gt;: ??&lt;/li&gt;&lt;/ol&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="uckN_QWL19h1E3_D1OjQ-1" value="&lt;b&gt;Database&lt;/b&gt;&lt;br&gt;&lt;br&gt;Tabella AAA_UiConfigs&lt;br&gt;Salvataggio in formato JSON&lt;br&gt;&lt;br&gt;&lt;ol&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;b&gt;ReactModuleEnumId&lt;/b&gt;: Enumeratore che identifica l&#39;applicazione React (es. Scadenzario, NcSmart, GdprDataRetention...)&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;b&gt;KeyRoute&lt;/b&gt;: Pagina interna all&#39;applicazione (es: HomePage, DettaglioFrequenze, Luoghi, ecc..)&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;b&gt;HashCode&lt;/b&gt;: ??&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;b&gt;UserId&lt;/b&gt;: id utente&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;b&gt;RecordType&lt;/b&gt;: ??&lt;/li&gt;&lt;/ol&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
           <mxGeometry x="40" y="40" width="800" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="uckN_QWL19h1E3_D1OjQ-2" value="&lt;b&gt;Server&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;API Get&lt;/b&gt;&amp;nbsp;(id: ReactModuleEnumId, keyRoute: string)&lt;br&gt;&lt;b&gt;API Put&lt;/b&gt; (id: ReactModuleEnumId, keyRoute: string, body: UiConfigDto)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="uckN_QWL19h1E3_D1OjQ-2" value="&lt;b&gt;Server&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;API Get&lt;/b&gt;&amp;nbsp;(id: ReactModuleEnumId, keyRoute: string)&lt;br&gt;&lt;b&gt;API Put&lt;/b&gt; (id: ReactModuleEnumId, keyRoute: string, body: UiConfigDto)" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
           <mxGeometry x="40" y="280" width="800" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="uckN_QWL19h1E3_D1OjQ-3" value="&lt;b&gt;AppShell&lt;/b&gt;&lt;br&gt;&lt;br&gt;uiConfigs: UiConfigHashDto&lt;br&gt;&lt;br&gt;useUiConfigs(keyRoute: string): Hook che facilita la comunicazione tra applicazione e AppShell.&lt;br&gt;Restituisce le &quot;uiConfigs&quot; della keyRoute, una function &quot;setUiConfigs&quot; che si occupa di aggiornare db e appShell." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="uckN_QWL19h1E3_D1OjQ-3" value="&lt;b&gt;AppShell&lt;/b&gt;&lt;br&gt;&lt;br&gt;uiConfigs: UiConfigHashDto&lt;br&gt;&lt;br&gt;useUiConfigs(keyRoute: string): Hook che facilita la comunicazione tra applicazione e AppShell.&lt;br&gt;Restituisce le &quot;uiConfigs&quot; della keyRoute, una function &quot;setUiConfigs&quot; che si occupa di aggiornare db e appShell." style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
           <mxGeometry x="40" y="450" width="800" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="uckN_QWL19h1E3_D1OjQ-10" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="uckN_QWL19h1E3_D1OjQ-3" target="uckN_QWL19h1E3_D1OjQ-2">
+        <mxCell id="uckN_QWL19h1E3_D1OjQ-10" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;curved=1;sketch=1;labelBackgroundColor=#F4F1DE;strokeColor=#E07A5F;fontColor=#393C56;" edge="1" parent="1" source="uckN_QWL19h1E3_D1OjQ-3" target="uckN_QWL19h1E3_D1OjQ-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="400" y="330" as="sourcePoint" />
             <mxPoint x="450" y="280" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uckN_QWL19h1E3_D1OjQ-11" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="uckN_QWL19h1E3_D1OjQ-2" target="uckN_QWL19h1E3_D1OjQ-1">
+        <mxCell id="uckN_QWL19h1E3_D1OjQ-11" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;curved=1;sketch=1;labelBackgroundColor=#F4F1DE;strokeColor=#E07A5F;fontColor=#393C56;" edge="1" parent="1" source="uckN_QWL19h1E3_D1OjQ-2" target="uckN_QWL19h1E3_D1OjQ-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="400" y="330" as="sourcePoint" />
             <mxPoint x="450" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uckN_QWL19h1E3_D1OjQ-12" value="&lt;b style=&quot;background-color: initial;&quot;&gt;App Client&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;ol&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Gestione della visualizzazione della UI col meccanismo accendi/spegni.&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Possibilità di configurazione.&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Inizializzazione tramite schema uiConfigsEditor&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="uckN_QWL19h1E3_D1OjQ-12" value="&lt;b style=&quot;background-color: initial;&quot;&gt;App Client&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;ol&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Gestione della visualizzazione della UI col meccanismo accendi/spegni.&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Possibilità di configurazione.&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Inizializzazione tramite schema uiConfigsEditor&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
           <mxGeometry x="40" y="640" width="800" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="uckN_QWL19h1E3_D1OjQ-13" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="uckN_QWL19h1E3_D1OjQ-12" target="uckN_QWL19h1E3_D1OjQ-3">
+        <mxCell id="uckN_QWL19h1E3_D1OjQ-13" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;curved=1;sketch=1;labelBackgroundColor=#F4F1DE;strokeColor=#E07A5F;fontColor=#393C56;" edge="1" parent="1" source="uckN_QWL19h1E3_D1OjQ-12" target="uckN_QWL19h1E3_D1OjQ-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="400" y="760" as="sourcePoint" />
             <mxPoint x="450" y="710" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uckN_QWL19h1E3_D1OjQ-14" value="&lt;b&gt;uiConfigEditor&lt;/b&gt;&lt;br&gt;&lt;br&gt;TODO: Parlarne con Ezio&lt;br&gt;In fase di inizializzazione se non è presente alcun dato su db bisogna generare lo schema iniziale e aggiornare db / appshell.&lt;br&gt;Questo avviene solo la prima volta per ogni utente. Lo schema però ha una struttura ben precisa.&lt;br&gt;Capire quale delle 2 strade va percorsa:&lt;br&gt;&lt;ol&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Creazione dell&#39;oggetto &quot;iniziale&quot; JS partendo dall&#39;iterfaccia UiConfigDto [es: const initialConfigs: UiConfigDto = { ... }]&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Creare una Classe costruttore che implementa l&#39;interfaccia UiConfigDto [es: const initialConfigs = new UiConfigs() ]&lt;/li&gt;&lt;/ol&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="uckN_QWL19h1E3_D1OjQ-14" value="&lt;b&gt;uiConfigEditor&lt;/b&gt;&lt;br&gt;&lt;br&gt;TODO: Parlarne con Ezio&lt;br&gt;In fase di inizializzazione se non è presente alcun dato su db bisogna generare lo schema iniziale e aggiornare db / appshell.&lt;br&gt;Questo avviene solo la prima volta per ogni utente. Lo schema però ha una struttura ben precisa.&lt;br&gt;Capire quale delle 2 strade va percorsa:&lt;br&gt;&lt;ol&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Creazione dell&#39;oggetto &quot;iniziale&quot; JS partendo dall&#39;iterfaccia UiConfigDto [es: const initialConfigs: UiConfigDto = { ... }]&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Creare una Classe costruttore che implementa l&#39;interfaccia UiConfigDto [es: const initialConfigs = new UiConfigs() ]&lt;/li&gt;&lt;/ol&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
           <mxGeometry x="40" y="840" width="800" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="uckN_QWL19h1E3_D1OjQ-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="uckN_QWL19h1E3_D1OjQ-14">
+        <mxCell id="uckN_QWL19h1E3_D1OjQ-15" value="" style="endArrow=classic;html=1;rounded=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;curved=1;sketch=1;labelBackgroundColor=#F4F1DE;strokeColor=#E07A5F;fontColor=#393C56;" edge="1" parent="1" source="uckN_QWL19h1E3_D1OjQ-14">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="400" y="690" as="sourcePoint" />
             <mxPoint x="440" y="800" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uckN_QWL19h1E3_D1OjQ-17" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.smiley" vertex="1" parent="1">
+        <mxCell id="uckN_QWL19h1E3_D1OjQ-17" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.smiley;rounded=1;sketch=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
           <mxGeometry x="770" y="650" width="60" height="60" as="geometry" />
         </mxCell>
       </root>
